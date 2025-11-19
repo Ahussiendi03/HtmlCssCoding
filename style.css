@@ -1,0 +1,57 @@
+h1 {
+  color: white;
+}
+span {
+  color: skyblue;
+}
+button {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 20px;
+  border: solid blue;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  transition: all ease-in-out 0.2s;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px;
+}
+.logo {
+  color: white;
+}
+.link a {
+  margin: auto 5px;
+  color: white;
+  text-decoration: none;
+}
+.link a:hover {
+  text-decoration: underline;
+}
+.github {
+  color: black;
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+.github:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: all ease-in-out 0.2s;
+}
+.github a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: darkblue;
+}
